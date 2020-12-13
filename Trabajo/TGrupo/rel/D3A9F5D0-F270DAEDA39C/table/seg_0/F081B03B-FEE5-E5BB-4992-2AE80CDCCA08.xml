@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F081B03B-FEE5-E5BB-4992-2AE80CDCCA08" name="Tutor_Legal">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>97BCA23E-1AD2-8897-5B4E-2EB64E2C1A59</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="79CB881A-707B-B3B3-F1F9-CB7E6CBCE489">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>95CC8449-B315-ACE5-FF47-4A1887802762</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="CD23B457-9D80-DE95-1B55-70303E005F54">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>90EF5500-40C0-9C82-1391-9D99EBD0FAC1</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="CE157937-5630-25B2-20BF-43E5FE0591A2">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>61AF3ACD-A637-D83A-4571-2F840A767836</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7181893-88AF-A191-7191-A2A3736ED7A1" name="Tutor_Legal_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>4FCB089C-43D5-C89F-AAB7-C1E42FF0E9CD</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79CB881A-707B-B3B3-F1F9-CB7E6CBCE489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79CAA902-E317-2FA3-C0DA-1EFC8FB4C90B" name="Tutor_Alumno_UN">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>C19AD804-BA5F-7C60-727B-258AF1D7A245</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD23B457-9D80-DE95-1B55-70303E005F54"/>
+<colUsage columnID="CE157937-5630-25B2-20BF-43E5FE0591A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

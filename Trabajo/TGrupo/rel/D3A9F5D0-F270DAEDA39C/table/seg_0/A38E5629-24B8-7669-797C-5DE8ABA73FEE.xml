@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A38E5629-24B8-7669-797C-5DE8ABA73FEE" name="Producto">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>F4AC32ED-1F24-52E4-E931-E702BE02195E</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3CEBCAFB-B1E7-638A-57A3-8678B8716A48">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>0C125280-6025-DE1A-08DD-9F4BBA12B038</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="DAE66B8B-68D9-3FF2-3328-9C081A415131">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>D6B3EE3C-A9AC-4ABE-40A5-AB4C0E2560B6</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="73635068-3F37-51E1-665B-05CEB2A7B32C">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>A14E8A4A-9BF1-FDE2-B07F-E66A8948FA46</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Talla" id="47DBBC3A-B83C-959A-7A15-DECB72F92A20">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>2895C242-4795-47B3-C930-FD1137BA60CF</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock" id="2E42BA92-AFFF-9D88-09B3-6C3F5A8691C2">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>4DCF7A46-25FF-A568-5561-B4035319BA74</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A0B19D9-2509-CA53-632D-2C910B8C9585" name="Producto_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>9CA6AB84-0ACF-0DB5-6B05-CC8E3F0F0ACE</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CEBCAFB-B1E7-638A-57A3-8678B8716A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

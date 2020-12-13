@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16FC2910-7F95-DACB-8029-9C1A1A4B1F68" name="Relation_10">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Socio_ID" id="00B043E6-51EC-38AC-1E3E-9463FC98CD29">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17324813-6358-9517-C3A8-EABEB0E045BF" referredColumn="7FFC843E-6582-A65A-6C99-B12638C26067"/>
+</associations>
+</Column>
+<Column name="Socio_ID1" id="E10C7F22-352C-27F2-F476-07A919650F0E">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D72100C5-666F-C2B8-6DC4-A4A4FE4BF889" referredColumn="7FFC843E-6582-A65A-6C99-B12638C26067"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8233B0EB-72BD-2057-90AA-A02C358E53B7" name="Relation_10_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B043E6-51EC-38AC-1E3E-9463FC98CD29"/>
+<colUsage columnID="E10C7F22-352C-27F2-F476-07A919650F0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="141D8835-869D-9F5B-1030-B1BB7A801602" name="Relation_10_Socio_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>327B8B9D-6AD0-61D1-8F6D-2891FCE8E937</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B043E6-51EC-38AC-1E3E-9463FC98CD29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45F98AF9-17C3-EBAD-1AFD-B584BC6195FB" name="Relation_10_Socio_FKv1">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>327B8B9D-6AD0-61D1-8F6D-2891FCE8E937</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E10C7F22-352C-27F2-F476-07A919650F0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

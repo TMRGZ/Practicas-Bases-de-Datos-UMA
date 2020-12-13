@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C44733F-4DE3-1A4A-BECE-767CC0FF97CA" name="Pedido_Online">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>AFB46D62-8DC1-F9D9-3D29-9F772EBAE25D</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="N_Pedido" id="79EFE27F-41FD-0BCB-C4CF-E50BF54DF4FF">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>3EA7F225-B9E1-41EF-D97F-11483CC35D9B</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="58918DAE-9B10-9F71-17C4-C116B5E67F25">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>1AD5D880-560A-F718-59BB-8D99E196AF78</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Validacion_de_Pedido" id="B7847311-22D9-F285-B9AD-D5949164C79A">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>384BBF7F-2E22-1797-8B2C-DCBD19AAD6C0</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ingreso" id="48456BE5-64D3-282D-93BA-533CB5F1C781">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>3B285456-6C94-B273-7FED-F9F6A294575B</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gasto" id="4333B845-9AF2-DE3F-9470-2C641C172027">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>8CC68607-A25F-70BB-54F4-A25DED1F6E07</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_ID" id="7840C7E1-FCEA-A041-A63A-EBC0D306BDFF">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>28B39A12-F28C-421C-F4BC-00E04CEE455B</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38BF7370-99E9-F8EB-C2C9-27FD986EF5FF" referredColumn="3CEBCAFB-B1E7-638A-57A3-8678B8716A48"/>
+</associations>
+</Column>
+<Column name="Socio_ID" id="5641E544-8B5F-4D2A-3F02-B835190A6442">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>7D2F16E5-85EE-5E82-3777-C22B7C5C0525</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFE3ED9B-1391-9FB3-ACF4-1AFEAC517EC4" referredColumn="7FFC843E-6582-A65A-6C99-B12638C26067"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37206221-5237-0B61-B3F2-1C3BB60C855D" name="Pedido_Online_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>C4E5FEC5-EFC2-B9C7-5DD8-19CFF46880C2</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79EFE27F-41FD-0BCB-C4CF-E50BF54DF4FF"/>
+<colUsage columnID="7840C7E1-FCEA-A041-A63A-EBC0D306BDFF"/>
+<colUsage columnID="5641E544-8B5F-4D2A-3F02-B835190A6442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D565473C-270C-0982-89CD-F1A143742768" name="Pedido_Online_Producto_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>969F0B15-E809-E94D-1E34-D23595986D48</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7840C7E1-FCEA-A041-A63A-EBC0D306BDFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4DA3B40-399C-1704-00F1-AF9376BA33E5" name="Pedido_Online_Socio_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>F14DE138-36CB-E5C3-D5B6-5C3A6CC68282</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5641E544-8B5F-4D2A-3F02-B835190A6442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="925B218E-2595-5CD8-D978-F825B1A6BD97" name="Relation_9">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Voluntario_ID" id="E3CD5425-7FB3-016B-CBA7-B32BCC19C63D">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC671318-177B-4917-878E-95DB98EFBAB1" referredColumn="41BA5A6D-1446-99D9-1EEC-A40A90C85250"/>
+</associations>
+</Column>
+<Column name="Post_Titulo" id="107DC857-8AF3-D3FC-781C-5439290B88A1">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60724D86-9C6D-979E-AEDA-79EB563FD5C0" referredColumn="58A4395C-8662-7F88-9580-F835CE07086F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="411FDB17-0F1A-E582-4BCE-3DECBCC6AEEB" name="Relation_9_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3CD5425-7FB3-016B-CBA7-B32BCC19C63D"/>
+<colUsage columnID="107DC857-8AF3-D3FC-781C-5439290B88A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A388C0D1-9EC7-3D16-934F-CBC40A55DA05" name="Relation_9_Voluntario_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>65B57C8B-11A3-77C8-991C-48F7C143F41A</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3CD5425-7FB3-016B-CBA7-B32BCC19C63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F429297-A37F-3FAE-EE3E-3DE9B54AD1B5" name="Relation_9_Post_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>65B57C8B-11A3-77C8-991C-48F7C143F41A</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="107DC857-8AF3-D3FC-781C-5439290B88A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

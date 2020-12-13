@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F57212C-8A08-C155-5FF0-77630B6B09DC" name="Comentario">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>315F1B01-A1F0-6AB7-371C-C1F6B75E1B85</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fecha" id="1A6F37F1-B3E3-402B-750A-B1E65B8B5B5F">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>CC34C191-7C0A-06A4-018D-EBEFA36A6EEA</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asiste" id="33F61209-F877-DE0E-3AC0-C1580C81C297">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>02F3A81A-DF7E-672E-743A-E5E3B5AB0A24</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comentario" id="96116749-816C-E848-151F-C014DDF4B0BF">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>74AB20B9-ECBD-0DDF-3F4E-40594B180A12</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Actividad_ID" id="D08EF395-EC66-582E-7A19-1CF4C644336F">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>277C9FE4-F0CA-C5BB-DC4F-65F81D6580CD</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D05B92F9-83FA-6D1B-51F9-7DABC9D88E6E" referredColumn="16695B64-CA74-9E54-3FFF-C233267B7CD9"/>
+</associations>
+</Column>
+<Column name="Socio_ID" id="1CAF0B22-CC96-1F0C-60C1-67BB06060006">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>17D9C13B-E0F8-DB9A-8A4B-9E1A4CF65061</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="603E3FFC-B11F-9718-4B36-84F1297E49B7" referredColumn="7FFC843E-6582-A65A-6C99-B12638C26067"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AECCC2DC-1CA3-177F-6042-06C54AE407AD" name="Comentario_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>00BBC7E3-727D-4A23-592C-2B0BEA4DE791</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A6F37F1-B3E3-402B-750A-B1E65B8B5B5F"/>
+<colUsage columnID="D08EF395-EC66-582E-7A19-1CF4C644336F"/>
+<colUsage columnID="1CAF0B22-CC96-1F0C-60C1-67BB06060006"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F41D9365-9723-B972-A733-3B5B99744A4A" name="Comentario_Actividad_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>B50B1A94-AE7F-8E22-6AA1-8F0833BB880E</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D08EF395-EC66-582E-7A19-1CF4C644336F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7642605C-0260-DE2E-6885-12A35269C6D4" name="Comentario_Socio_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>5061B4CD-0158-9A76-495B-940DE637A3E7</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CAF0B22-CC96-1F0C-60C1-67BB06060006"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

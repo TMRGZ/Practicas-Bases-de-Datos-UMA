@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D808DDB2-81A2-A741-4A61-953AEFCF0BDB" name="Relation_14">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Documentacion_ID_Documento" id="BF3AA418-5CD2-4CAB-CC7B-875EBD02DEF3">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60A1640F-AF6D-F286-C2E4-DD29E4C536FC" referredColumn="A8199921-DF0B-E39B-F4B2-C6D37F68E323"/>
+</associations>
+</Column>
+<Column name="Socio_ID" id="53387C59-5251-3805-4BC3-EC45B190F2E7">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08220033-BBFB-6BC6-7FC6-3408C76DF301" referredColumn="7FFC843E-6582-A65A-6C99-B12638C26067"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1BE76E7-D7D6-B71D-676A-37EA0AA92A33" name="Relation_14_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF3AA418-5CD2-4CAB-CC7B-875EBD02DEF3"/>
+<colUsage columnID="53387C59-5251-3805-4BC3-EC45B190F2E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5DFCBCF-25CB-97C4-AEA3-13D9022AB3E3" name="Relation_14_Documentacion_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>BA0AB224-8D59-7E86-9D34-B5D53958D8C9</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF3AA418-5CD2-4CAB-CC7B-875EBD02DEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3084706-BC5D-9A0B-2B9C-41D0BE0137CC" name="Relation_14_Socio_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>BA0AB224-8D59-7E86-9D34-B5D53958D8C9</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53387C59-5251-3805-4BC3-EC45B190F2E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

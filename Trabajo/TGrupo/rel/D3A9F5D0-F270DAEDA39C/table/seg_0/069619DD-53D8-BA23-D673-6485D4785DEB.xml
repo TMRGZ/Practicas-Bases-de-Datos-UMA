@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="069619DD-53D8-BA23-D673-6485D4785DEB" name="Relation_3">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Socio_ID" id="4896A311-F303-83F7-465E-955185BC2495">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60278B60-8AEF-FE76-7ED7-B9909218B967" referredColumn="7FFC843E-6582-A65A-6C99-B12638C26067"/>
+</associations>
+</Column>
+<Column name="Tutor_Legal_DNI" id="E55327F8-1337-ED1A-134A-2B7C74DDC95E">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D19B2EAF-AA46-DD4F-424D-63DF926A9501" referredColumn="79CB881A-707B-B3B3-F1F9-CB7E6CBCE489"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B6FCAE9-5560-BC7E-6933-1A74814953B3" name="Relation_3_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4896A311-F303-83F7-465E-955185BC2495"/>
+<colUsage columnID="E55327F8-1337-ED1A-134A-2B7C74DDC95E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D281B57-2000-00A4-9746-B70027AA318B" name="Socio_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>2D02374E-6CDA-9E93-B7E7-DBE43CF3064A</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4896A311-F303-83F7-465E-955185BC2495"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67284A97-1CAD-E5E3-2506-5FCCB1E81F73" name="Tutor_Legal_FK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>2D02374E-6CDA-9E93-B7E7-DBE43CF3064A</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E55327F8-1337-ED1A-134A-2B7C74DDC95E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

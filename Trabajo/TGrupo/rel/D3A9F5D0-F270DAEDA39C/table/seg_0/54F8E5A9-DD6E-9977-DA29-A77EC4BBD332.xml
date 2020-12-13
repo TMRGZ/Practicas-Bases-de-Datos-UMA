@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54F8E5A9-DD6E-9977-DA29-A77EC4BBD332" name="Finanzas">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>40489A30-4923-3785-3DDF-1DA407BDE866</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cuota" id="74AF7CEE-7838-71E1-8E8F-06463A294A4D">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>6670736A-62AC-942E-052F-C53C82B8E138</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mes" id="84AA276D-5397-62F1-B00C-6D6BB2B7CED2">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>2728615A-A325-A05A-A27F-CDEDD5C3EAAB</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IVA" id="4FBB7465-2113-9E94-099A-5438E2528160">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>92EB8D35-78C5-AB63-7BE2-CFDE9F6236F7</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Financiacion" id="CC110073-320A-5025-2C4A-0F199AFEAC76">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>B6E6BDB1-B00D-0708-FC9C-5B969D242026</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Balance_de_Cuentas" id="F2514612-7F9A-1AF8-54C8-1099167A7C62">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>DCCD3E3B-564F-7209-0CB7-63E7B4C5D41A</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tesoreria" id="7AB8A9C7-3D64-F788-5343-850593F530B3">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>61FE2819-712E-483A-3EA6-A0228C8D3A72</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Socio_ID" id="41069AA5-DDB9-253B-DD01-0E3054A755FE">
+<createdBy>MiguelRuiz</createdBy>
+<createdTime>2017-12-18 18:42:27 UTC</createdTime>
+<generatorID>4485ACC6-8EF7-B124-01CE-C0A3C5309B52</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5365FE2-3422-5A4D-A05A-F8A0F4132DC8" referredColumn="7FFC843E-6582-A65A-6C99-B12638C26067"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="154343AF-B527-6CCE-484F-3857067DCA45" name="Finanzas_PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:18:23 UTC</createdTime>
+<generatorID>F6E04E8D-E47C-FB17-7549-B1622A921C3C</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74AF7CEE-7838-71E1-8E8F-06463A294A4D"/>
+<colUsage columnID="84AA276D-5397-62F1-B00C-6D6BB2B7CED2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20F19015-DA2D-7459-F404-EB2A8FB5DD6B" name="Finanzas_Socio_FK">
+<createdBy>MiguelRuiz</createdBy>
+<createdTime>2017-12-18 18:42:27 UTC</createdTime>
+<generatorID>960C25D4-1E48-6BB3-BF94-C14FA302E3EF</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41069AA5-DDB9-253B-DD01-0E3054A755FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

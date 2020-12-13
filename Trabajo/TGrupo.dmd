@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TGrupo" id="28E04F28-7554-FD06-4B5A-DC55DC34DB34" version="3.5">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 15:30:29 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>28E04F28-7554-FD06-4B5A-DC55DC34DB34</designId>
+</OSDM_Design>
