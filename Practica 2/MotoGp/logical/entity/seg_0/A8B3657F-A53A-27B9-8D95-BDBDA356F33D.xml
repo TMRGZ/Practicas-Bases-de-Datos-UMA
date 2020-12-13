@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8B3657F-A53A-27B9-8D95-BDBDA356F33D" name="CIRCUITO">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:10:13 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="DB3D2B07-BDDA-13EB-397C-83753E0553A0">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:10:34 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="1455F750-FDB8-9FA2-0D9D-15854FD92C52">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:10:45 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="País" id="02777532-7D3C-01C5-FF6D-0446C9189295">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:11:45 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="77E856E6-207D-30F2-F307-E02EBD2535C1">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:11:59 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Longitud" id="42861988-943A-EFE1-EEB5-AE825F55A28E">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:15:10 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distancia" id="09F71586-EA8C-8391-BC6A-162F1A606969">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:15:40 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parrilla" id="EDE8C4E9-AE95-FE30-D833-4A3F34F25538">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:14:37 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Año Inicio" id="7301C5FA-8D8E-041F-EBFD-E40C6BCFE232">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:14:04 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Anchura Pista" id="7C333869-7840-10A6-8CEB-F377ED170FCA">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:14:22 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sentido Marcha" id="55A4EDE1-C9EB-CDF9-B745-2AD104AF6026">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:14:52 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D76AC39D-EE00-32D1-B871-482C36807115" name="CIRCUITO PK">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:10:39 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB3D2B07-BDDA-13EB-397C-83753E0553A0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BDBC2627-D4B2-48F9-2A17-ECCD5E8D4B94" name="Key_2">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:11:24 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<newElementsIDs>1455F750-FDB8-9FA2-0D9D-15854FD92C52</newElementsIDs>
+<usedAttributes>
+<attributeRef>1455F750-FDB8-9FA2-0D9D-15854FD92C52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

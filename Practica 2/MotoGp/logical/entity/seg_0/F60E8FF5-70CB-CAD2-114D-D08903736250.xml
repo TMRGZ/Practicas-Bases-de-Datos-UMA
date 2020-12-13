@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F60E8FF5-70CB-CAD2-114D-D08903736250" name="ACTO">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:24:23 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha" id="33BA5854-5BB2-0CE1-C999-8FE3742AB4DC">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:24:34 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora" id="B846CBBC-0154-33DA-F685-B6F555192A2A">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:24:48 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección" id="F44E6AA6-CE79-7B64-FDAD-C7A7F60536FE">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:25:44 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teléfono" id="2A4E8375-0AAC-2E63-B9D3-1E3E72A26CA5">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:25:54 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripción" id="32011CC3-6699-42FC-8B20-A2F435052760">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:26:09 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B5A1556-9AA2-7D7D-E6A7-6D88E2523FBD" name="ORGANIZACIÓN PK">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:24:46 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33BA5854-5BB2-0CE1-C999-8FE3742AB4DC</attributeRef>
+<attributeRef>B846CBBC-0154-33DA-F685-B6F555192A2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

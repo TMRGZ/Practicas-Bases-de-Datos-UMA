@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="67EE20A3-8C93-A655-1031-B240FE75B31B">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:34:27 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>A8B3657F-A53A-27B9-8D95-BDBDA356F33D</sourceEntity>
+<targetEntity>D5BAE7AB-CE7C-999D-13F5-655D0362D58C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C246AEC3-57A2-6885-1E23-7710B3CF6994" name="SESIONES">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:36:24 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tiempo Tramo 1" id="E5F13237-6DCE-676F-53D7-320469DDC979">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:36:31 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tiempo Tramo 2" id="0A271B40-97D6-ADE0-1E39-F227DB13FDEC">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:41:48 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tiempo Tramo 3" id="44E08EFB-60F6-3E67-6F72-AFA34D284BA5">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:42:02 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tiempo Tramo 4" id="F860FF9F-0D17-2992-F596-E1E1C148DBA8">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:42:21 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tiempo Vuelta" id="F2EEF4ED-E83A-0A14-AD37-0C4B8157F0BE">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:36:40 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A8DE651B-0096-81F3-98E8-DAB813AB4775">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:52:13 UTC</createdTime>
+<generatorID>BE43133A-080F-5FFA-5D81-2097D370EE4A</generatorID>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<referedAttribute>B8829B81-3C09-ADCE-0EE5-7CBCB6A2588B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dorsal" id="2CB3FFC7-0167-805A-22C3-A3ABD4ADA77D">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:52:13 UTC</createdTime>
+<generatorID>BE43133A-080F-5FFA-5D81-2097D370EE4A</generatorID>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<referedAttribute>17310B4E-60E0-BBF2-7613-A59A3C5485FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificación" id="97A7AD96-81A4-1C85-B4DB-89CD9373AF1F">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:57:31 UTC</createdTime>
+<generatorID>BC658632-0B83-873E-A8B8-ED4FD64A28B5</generatorID>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<referedAttribute>7BDDF070-49A8-93EC-4AB2-002810E53DD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre2" id="6F4C49E3-E09A-E453-07FC-63F4559D3D4C">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:58:24 UTC</createdTime>
+<generatorID>BC658632-0B83-873E-A8B8-ED4FD64A28B5</generatorID>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<referedAttribute>B9C13E7F-EA5C-A4DC-9B97-A742E8B6CBC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="020E8C69-F47B-533C-3E4A-2516BA266572" name="SESIONES PK">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:52:13 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8DE651B-0096-81F3-98E8-DAB813AB4775</attributeRef>
+<attributeRef>2CB3FFC7-0167-805A-22C3-A3ABD4ADA77D</attributeRef>
+<attributeRef>97A7AD96-81A4-1C85-B4DB-89CD9373AF1F</attributeRef>
+<attributeRef>6F4C49E3-E09A-E453-07FC-63F4559D3D4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

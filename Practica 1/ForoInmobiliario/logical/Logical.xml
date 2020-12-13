@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="75CDAE9B-DE96-18C0-7A4B-1FB818F13012" mainViewID="D0116FB3-30B4-068F-81D4-CDCD387AB6A4">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-10-25 08:19:43 UTC</createdTime>
+<ownerDesignName>ForoInmobiliario</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C1ECA36-E3B6-0545-FD65-DCB5374D3500" name="CARRERA">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:22:53 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha" id="D68BBE7B-694A-5939-1FFB-79DB9C3DD91D">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:22:59 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora" id="2279004E-180B-27FD-EE98-C9EB6D877C10">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:23:20 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vueltas" id="34E4B725-38D3-20F9-5944-1527A38CE4DD">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:23:29 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Resultado" id="36C4E4C1-7037-6EC4-B682-6DFDF69B8936">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:23:40 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F58CBB7D-9336-7C5A-DD8B-C53346C1B2CE">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:59:17 UTC</createdTime>
+<generatorID>7C6AF7D9-5835-FAA9-D94C-C56053991A20</generatorID>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<referedAttribute>DB3D2B07-BDDA-13EB-397C-83753E0553A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre1" id="77EE9900-92AA-C279-5D6B-5DD493972561">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 13:05:11 UTC</createdTime>
+<generatorID>256FDC2F-69DD-1479-41AB-97E373FB0DF5</generatorID>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<referedAttribute>B8829B81-3C09-ADCE-0EE5-7CBCB6A2588B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dorsal" id="542EA977-A2B6-AD83-3BAF-F4C5A30068F5">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 13:05:11 UTC</createdTime>
+<generatorID>256FDC2F-69DD-1479-41AB-97E373FB0DF5</generatorID>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<referedAttribute>17310B4E-60E0-BBF2-7613-A59A3C5485FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFBB9216-21D3-8624-5E6E-978E43AD05D1" name="CARRERA PK">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:23:17 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D68BBE7B-694A-5939-1FFB-79DB9C3DD91D</attributeRef>
+<attributeRef>2279004E-180B-27FD-EE98-C9EB6D877C10</attributeRef>
+<attributeRef>F58CBB7D-9336-7C5A-DD8B-C53346C1B2CE</attributeRef>
+<attributeRef>77EE9900-92AA-C279-5D6B-5DD493972561</attributeRef>
+<attributeRef>542EA977-A2B6-AD83-3BAF-F4C5A30068F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

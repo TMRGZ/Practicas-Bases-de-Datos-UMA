@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Piloto/Sesiones" directorySegmentName="seg_0" id="BE43133A-080F-5FFA-5D81-2097D370EE4A">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:52:13 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<sourcePk>2333D2BE-5965-5216-C3E6-9A55660B24D7</sourcePk>
+<targetPk>020E8C69-F47B-533C-3E4A-2516BA266572</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB68AE8A-9E5A-8B9A-7105-0B111986A5E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C246AEC3-57A2-6885-1E23-7710B3CF6994</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

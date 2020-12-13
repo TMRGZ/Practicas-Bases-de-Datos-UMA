@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Equipo/Personal" directorySegmentName="seg_0" id="279EA711-3B7E-DB12-6575-0E4A8F5C5356">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:47:00 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<sourcePk>E18A4FE8-6D6C-5CF6-82AB-9E3C65FD5D63</sourcePk>
+<targetPk>1FB716A6-4042-1812-37CA-47EFEE4801A3</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0B8F752-3D66-7ACF-9BA5-34868AEF9CBD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0D94FC7-5FF3-BAAA-89CD-7604F08EF376</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

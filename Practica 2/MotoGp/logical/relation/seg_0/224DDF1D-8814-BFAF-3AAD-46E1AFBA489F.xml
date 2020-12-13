@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tramo/Circuito" directorySegmentName="seg_0" id="224DDF1D-8814-BFAF-3AAD-46E1AFBA489F">
+<createdBy>Saúl</createdBy>
+<createdTime>2017-11-07 12:58:24 UTC</createdTime>
+<ownerDesignName>MotoGp</ownerDesignName>
+<engineerTo>
+<item key="705D2DAD-185B-7403-D754-CDA5BFA9CC9C" value="true"/>
+</engineerTo>
+<sourcePk>D76AC39D-EE00-32D1-B871-482C36807115</sourcePk>
+<targetPk>0C124A41-13F2-5BB8-BDE5-CD02135DCC5A</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8B3657F-A53A-27B9-8D95-BDBDA356F33D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>40A19987-6F44-F148-5FE8-C3A60C5B2B34</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

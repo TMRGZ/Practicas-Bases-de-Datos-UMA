@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="28B5084F-C0F7-5054-D8E7-8C300CE1A935">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-10-25 08:19:43 UTC</createdTime>
+<ownerDesignName>ForoInmobiliario</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

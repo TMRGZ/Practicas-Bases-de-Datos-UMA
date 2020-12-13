@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6BEF1454-A0E3-C992-89D2-FEBE0856E8CB" mainViewID="B30F8DA1-3BFE-2FB9-ED90-2DACCF25ED95">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-10-25 08:19:43 UTC</createdTime>
+<ownerDesignName>ForoInmobiliario</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
