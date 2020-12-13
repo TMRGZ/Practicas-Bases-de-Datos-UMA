@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40489A30-4923-3785-3DDF-1DA407BDE866" name="Finanzas">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 15:43:18 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cuota" id="6670736A-62AC-942E-052F-C53C82B8E138">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:20:41 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mes" id="2728615A-A325-A05A-A27F-CDEDD5C3EAAB">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:20:57 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IVA" id="92EB8D35-78C5-AB63-7BE2-CFDE9F6236F7">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:21:06 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Financiacion" id="B6E6BDB1-B00D-0708-FC9C-5B969D242026">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:21:15 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Balance de Cuentas" id="DCCD3E3B-564F-7209-0CB7-63E7B4C5D41A">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:21:21 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tesoreria" id="61FE2819-712E-483A-3EA6-A0228C8D3A72">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:21:31 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="4485ACC6-8EF7-B124-01CE-C0A3C5309B52">
+<createdBy>MiguelRuiz</createdBy>
+<createdTime>2017-12-18 18:42:09 UTC</createdTime>
+<generatorID>960C25D4-1E48-6BB3-BF94-C14FA302E3EF</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<referedAttribute>67306396-F85A-005B-5BC4-EB20A442444C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6E04E8D-E47C-FB17-7549-B1622A921C3C" name="Finanzas PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:20:54 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6670736A-62AC-942E-052F-C53C82B8E138</attributeRef>
+<attributeRef>2728615A-A325-A05A-A27F-CDEDD5C3EAAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

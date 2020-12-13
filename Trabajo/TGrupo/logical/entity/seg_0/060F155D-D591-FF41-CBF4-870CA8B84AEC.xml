@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="060F155D-D591-FF41-CBF4-870CA8B84AEC" name="Socio">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 15:32:40 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="67306396-F85A-005B-5BC4-EB20A442444C">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:12:30 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usuario" id="B197D01C-AA15-209D-9448-2190D565BE46">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:22:17 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contraseña" id="998BF167-D112-57CC-8518-8718012F0D78">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:22:25 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grupo" id="14AEEF65-7EFC-88CC-2AC1-BF36B8EA1C1C">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:22:32 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="8AB3D152-4CD5-EA40-7A60-3CB9F5A98A19">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:22:38 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="2610EBDF-331C-D220-84C1-B17633F738C7">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:22:47 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="7A06A275-2917-A326-0715-7F28EF7B4741">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:22:57 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Nacimiento" id="0D3F0EE1-7A15-BBC8-E2C9-B40717713C1D">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:23:04 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="AEC8DE06-CB16-44E5-1C85-6CB86289E09C">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:23:19 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Ingreso" id="DA77B306-61A8-AA21-7015-B9B0B3CFBF6C">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:23:24 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de Baja" id="153D13CE-7A00-6B10-372F-6CFA6F9A2885">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:23:33 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SO3" id="932F09B4-96AD-EAB7-7BE2-ACEB73C6C5CC">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:23:42 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Provincia" id="9AB5E987-E746-215D-3C47-2018597F68C6">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:23:47 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Promesas" id="EF939552-5C5F-012D-BDD4-6619129B55E3">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:23:57 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Incidencias" id="64E9501A-DD6E-956F-CBE0-92FC47792292">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:24:03 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CFA5476-0C88-C5BA-6F37-A0042CD82C1B" name="Socio PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:22:20 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67306396-F85A-005B-5BC4-EB20A442444C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="75C87231-5F4C-7D52-2EFC-8AE7DC164B98" name="Usuario_UK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:12:55 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="false"/>
+</engineerTo>
+<newElementsIDs>B197D01C-AA15-209D-9448-2190D565BE46</newElementsIDs>
+<usedAttributes>
+<attributeRef>B197D01C-AA15-209D-9448-2190D565BE46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

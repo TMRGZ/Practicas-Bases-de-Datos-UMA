@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFB46D62-8DC1-F9D9-3D29-9F772EBAE25D" name="Pedido Online">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 15:43:25 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="N Pedido" id="3EA7F225-B9E1-41EF-D97F-11483CC35D9B">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:12:43 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="1AD5D880-560A-F718-59BB-8D99E196AF78">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:12:51 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Validacion de Pedido" id="384BBF7F-2E22-1797-8B2C-DCBD19AAD6C0">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:12:59 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ingreso" id="3B285456-6C94-B273-7FED-F9F6A294575B">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:13:18 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gasto" id="8CC68607-A25F-70BB-54F4-A25DED1F6E07">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:13:27 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="28B39A12-F28C-421C-F4BC-00E04CEE455B">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:27:17 UTC</createdTime>
+<generatorID>969F0B15-E809-E94D-1E34-D23595986D48</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<referedAttribute>0C125280-6025-DE1A-08DD-9F4BBA12B038</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="7D2F16E5-85EE-5E82-3777-C22B7C5C0525">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:12:33 UTC</createdTime>
+<generatorID>F14DE138-36CB-E5C3-D5B6-5C3A6CC68282</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<referedAttribute>67306396-F85A-005B-5BC4-EB20A442444C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4E5FEC5-EFC2-B9C7-5DD8-19CFF46880C2" name="Pedido Online PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:12:49 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EA7F225-B9E1-41EF-D97F-11483CC35D9B</attributeRef>
+<attributeRef>28B39A12-F28C-421C-F4BC-00E04CEE455B</attributeRef>
+<attributeRef>7D2F16E5-85EE-5E82-3777-C22B7C5C0525</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

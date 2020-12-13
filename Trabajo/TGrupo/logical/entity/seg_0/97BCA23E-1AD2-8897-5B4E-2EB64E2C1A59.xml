@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97BCA23E-1AD2-8897-5B4E-2EB64E2C1A59" name="Tutor Legal">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 15:44:13 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="95CC8449-B315-ACE5-FF47-4A1887802762">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 15:59:52 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="90EF5500-40C0-9C82-1391-9D99EBD0FAC1">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:00:01 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="61AF3ACD-A637-D83A-4571-2F840A767836">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:00:11 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FCB089C-43D5-C89F-AAB7-C1E42FF0E9CD" name="Tutor Legal PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 15:59:58 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95CC8449-B315-ACE5-FF47-4A1887802762</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C19AD804-BA5F-7C60-727B-258AF1D7A245" name="Nom_Apell">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-14 16:38:49 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="false"/>
+</engineerTo>
+<newElementsIDs>90EF5500-40C0-9C82-1391-9D99EBD0FAC1,61AF3ACD-A637-D83A-4571-2F840A767836</newElementsIDs>
+<usedAttributes>
+<attributeRef>90EF5500-40C0-9C82-1391-9D99EBD0FAC1</attributeRef>
+<attributeRef>61AF3ACD-A637-D83A-4571-2F840A767836</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

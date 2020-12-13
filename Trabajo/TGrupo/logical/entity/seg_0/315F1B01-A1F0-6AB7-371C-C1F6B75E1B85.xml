@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="315F1B01-A1F0-6AB7-371C-C1F6B75E1B85" name="Comentario">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:15:31 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha" id="CC34C191-7C0A-06A4-018D-EBEFA36A6EEA">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:15:45 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Asiste" id="02F3A81A-DF7E-672E-743A-E5E3B5AB0A24">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:16:00 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comentario" id="74AB20B9-ECBD-0DDF-3F4E-40594B180A12">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:16:16 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="277C9FE4-F0CA-C5BB-DC4F-65F81D6580CD">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:17:17 UTC</createdTime>
+<generatorID>B50B1A94-AE7F-8E22-6AA1-8F0833BB880E</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<referedAttribute>F5A4AC9B-F09F-8485-2D39-AC893797C6B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="17D9C13B-E0F8-DB9A-8A4B-9E1A4CF65061">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:17:24 UTC</createdTime>
+<generatorID>5061B4CD-0158-9A76-495B-940DE637A3E7</generatorID>
+<ownerDesignName>TGrupo</ownerDesignName>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="true"/>
+</engineerTo>
+<referedAttribute>67306396-F85A-005B-5BC4-EB20A442444C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00BBC7E3-727D-4A23-592C-2B0BEA4DE791" name="Comentario PK">
+<createdBy>miguelangelruiz</createdBy>
+<createdTime>2017-12-18 12:15:50 UTC</createdTime>
+<ownerDesignName>TGrupo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A9F5D0-02F9-BD93-809D-F270DAEDA39C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC34C191-7C0A-06A4-018D-EBEFA36A6EEA</attributeRef>
+<attributeRef>277C9FE4-F0CA-C5BB-DC4F-65F81D6580CD</attributeRef>
+<attributeRef>17D9C13B-E0F8-DB9A-8A4B-9E1A4CF65061</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
